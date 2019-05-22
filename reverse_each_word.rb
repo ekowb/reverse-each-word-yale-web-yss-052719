@@ -4,4 +4,4 @@ def reverse_each_word(phrase)
   counter = 0
   array.each do |element|
     new_word = element.reverse
-    new_array[]
+    new_array[counter] = new_word
