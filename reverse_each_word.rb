@@ -3,4 +3,3 @@ def reverse_each_word(phrase)
   new_array = []
   array.each do |element|
     new_word = element.reverse
-    
