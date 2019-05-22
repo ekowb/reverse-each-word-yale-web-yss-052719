@@ -1,5 +1,7 @@
+require 'pry'
 def reverse_each_word(phrase)
   array = phrase.split(".")
+  binding.pry
   new_array = []
   counter = 0
   array.each do |element|
