@@ -7,3 +7,5 @@ def reverse_each_word(phrase)
     new_array[counter] = new_word
   end
   reverse_word = new_array.join(" ")
+  return reverse_word
+end
